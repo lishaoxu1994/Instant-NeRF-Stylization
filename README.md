@@ -1,6 +1,39 @@
 # Instant-NeRF-Stylization
 
+## Install
+JNeRF environment requirements:
 
+* System: **Linux**(e.g. Ubuntu/CentOS/Arch), **macOS**, or **Windows Subsystem of Linux (WSL)**
+* Python version >= 3.7
+* CPU compiler (require at least one of the following)
+    * g++ (>=5.4.0)
+    * clang (>=8.0)
+* GPU compiler (optional)
+    * nvcc (>=10.0 for g++ or >=10.2 for clang)
+* GPU library: cudnn-dev (recommend tar file installation, [reference link](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html#installlinux-tar))
+* GPU supporting:
+  * sm arch >= sm_61 (GTX 10x0 / TITAN Xp and above)
+  * to use fp16: sm arch >= sm_70 (TITAN V / V100 and above). JNeRF will automatically use original fp32 if the requirements are not meet.
+  * to use FullyFusedMLP: sm arch >= sm_75 (RTX 20x0 and above). JNeRF will automatically use original MLPs if the requirements are not meet.
+
+**Step 1: Install the requirements**
+```shell
+sudo apt-get install tcl-dev tk-dev python3-tk
+python -m pip install -r requirements.txt
+```
+If you have any installation problems for Jittor, please refer to [Jittor](https://github.com/Jittor/jittor)
+
+**Step 2: Install JNeRF**
+
+JNeRF is a benchmark toolkit and can be updated frequently, so installing in editable mode is recommended.
+Thus any modifications made to JNeRF will take effect without reinstallation.
+
+```shell
+cd python
+python -m pip install -e .
+```
+
+After installation, you can ```import jnerf``` in python interpreter to check if it is successful or not.
 
 
 
