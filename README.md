@@ -1,6 +1,6 @@
 # Instant-NeRF-Stylization
 - Instant stylization between NeRF and NeRF, NeRF and image.
-- Our codebase is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
+- Our code is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
 
 ## Install(from [JNeRF](https://github.com/Jittor/JNeRF))
 JNeRF environment requirements:
