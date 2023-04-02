@@ -1,6 +1,6 @@
 # Instant-NeRF-Stylization
 
-## Install
+## Install(from [JNeRF](https://github.com/Jittor/JNeRF))
 JNeRF environment requirements:
 
 * System: **Linux**(e.g. Ubuntu/CentOS/Arch), **macOS**, or **Windows Subsystem of Linux (WSL)**
