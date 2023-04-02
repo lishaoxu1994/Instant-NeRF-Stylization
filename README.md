@@ -1,6 +1,6 @@
 # Instant Neural Radiance Fields Stylization
 Code for our paper:
-> **nstant Neural Radiance Fields Stylization**
+> **Instant Neural Radiance Fields Stylization**
 > <br>Shaoxu Li, Ye Pan<br>
 - Instant stylization between NeRF and NeRF, NeRF and image(10 mins).
 - Our code is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
