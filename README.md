@@ -36,7 +36,7 @@
       primaryClass={cs.CV}
 }
 ```
-## Related Works
+## Related Work
 
 ```
 @article{hu2020jittor,
