@@ -1,4 +1,6 @@
 # Instant-NeRF-Stylization
+- Instant stylization between NeRF and NeRF pair, NeRF and image pair.
+- Our codebase is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
 
 ## Install(from [JNeRF](https://github.com/Jittor/JNeRF))
 JNeRF environment requirements:
@@ -37,27 +39,23 @@ After installation, you can ```import jnerf``` in python interpreter to check if
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Comments
-
-- Our codebase is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
+## Getting Started
+### Datasets
 - We use dataset nerf_synthetic and nerf_llff_data from [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1), style images from [AdaIN-style](https://github.com/xunhuang1995/AdaIN-style/tree/master/input/style).
+
+### Config
+- NeRF and NeRF.  ./projects/ngp_stylization/ngp_pair_base.py
+- NeRF and image. ./projects/ngp_stylization/ngp_pair_base_img.py   For the image style target, there shall be a synthetic data for poses, details in the config. 
+
+### Train
+```shell
+python tools/run_net.py --config-file ./projects/ngp_stylization/ngp_pair_base.py
+```
+### Test
+```shell
+python tools/run_net_stylization.py --config-file ./projects/ngp_stylization/ngp_pair_base.py --task test
+```
+
 ## BibTeX
 
 ```
