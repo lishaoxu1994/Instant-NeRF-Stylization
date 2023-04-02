@@ -23,7 +23,7 @@
 
 ## Comments
 
-- Our codebase is based on the instant-ngp(https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
+- Our codebase is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
 ## BibTeX
 
 ```
