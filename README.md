@@ -45,7 +45,8 @@ After installation, you can ```import jnerf``` in python interpreter to check if
 
 ### Config
 - NeRF and NeRF.  "./projects/ngp_stylization/ngp_pair_base.py"
-- NeRF and image. "./projects/ngp_stylization/ngp_pair_base_img.py"   For the image style target, there shall be a synthetic data for poses, details in the config. 
+- NeRF and image. "./projects/ngp_stylization/ngp_pair_base_img.py"   
+For the image style target, there shall be a synthetic data for poses, details in the config. 
 
 ### Train
 ```shell
