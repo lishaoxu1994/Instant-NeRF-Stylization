@@ -24,7 +24,7 @@
 ## Comments
 
 - Our codebase is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
-- We use NeRF dataset from , style images from[AdaIN-style](https://github.com/xunhuang1995/AdaIN-style/tree/master/input/style).
+- We use dataset nerf_synthetic and nerf_llff_data from here[https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1], style images from [AdaIN-style](https://github.com/xunhuang1995/AdaIN-style/tree/master/input/style).
 ## BibTeX
 
 ```
