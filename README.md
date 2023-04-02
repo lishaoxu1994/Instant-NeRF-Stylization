@@ -1,5 +1,5 @@
 # Instant-NeRF-Stylization
-- Instant stylization between NeRF and NeRF, NeRF and image.
+- Instant stylization between NeRF and NeRF, NeRF and image(10 mins).
 - Our code is based on the [instant-ngp](https://github.com/NVlabs/instant-ngp) implemented by [JNeRF](https://github.com/Jittor/JNeRF).
 
 ## Install(from [JNeRF](https://github.com/Jittor/JNeRF))
