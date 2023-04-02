@@ -44,8 +44,8 @@ After installation, you can ```import jnerf``` in python interpreter to check if
 - We use dataset nerf_synthetic and nerf_llff_data from [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1), style images from [AdaIN-style](https://github.com/xunhuang1995/AdaIN-style/tree/master/input/style).
 
 ### Config
-- NeRF and NeRF.  './projects/ngp_stylization/ngp_pair_base.py'
-- NeRF and image. './projects/ngp_stylization/ngp_pair_base_img.py'   For the image style target, there shall be a synthetic data for poses, details in the config. 
+- NeRF and NeRF.  "./projects/ngp_stylization/ngp_pair_base.py"
+- NeRF and image. "./projects/ngp_stylization/ngp_pair_base_img.py"   For the image style target, there shall be a synthetic data for poses, details in the config. 
 
 ### Train
 ```shell
