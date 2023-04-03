@@ -1,9 +1,8 @@
-# Instant Neural Radiance Fields Stylization
+# Instant Neural Radiance Fields Stylization [Arxiv Paper](https://arxiv.org/abs/2303.16884)
 Code for our paper:
 > **Instant Neural Radiance Fields Stylization**
 > <br>Shaoxu Li, Ye Pan<br>
 
-[Arxiv Paper](https://arxiv.org/abs/2303.16884)
 
 ![image](title.png)
 - Instant stylization between NeRF and NeRF, NeRF and image(10 mins).
